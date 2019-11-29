@@ -1,0 +1,72 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "工作台"
+			}
+		},
+		{
+			"path": "pages/mobile/mobile",
+			"style": {
+				"navigationBarTitleText": "通讯录"
+			}
+		},
+		{
+			"path": "pages/person/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	    ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText": "登录"
+			}
+        }
+        ,{
+            "path" : "pages/mobile/mobileDetails",
+            "style" : {}
+        }
+        
+        ,{
+            "path" : "pages/mobile/mobileList",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#1296db",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [ {
+			"pagePath": "pages/index/index",
+			"iconPath": "static/10.png",
+			"selectedIconPath": "static/11.png",
+			"text": "首页"
+		},
+		{
+			"pagePath": "pages/mobile/mobile",
+			"iconPath": "static/20.png",
+			"selectedIconPath": "static/21.png",
+			"text": "通讯录"
+		},
+		{
+			"pagePath": "pages/person/index",
+			"iconPath": "static/30.png",
+			"selectedIconPath": "static/31.png",
+			"text": "个人中心"
+		}]
+	}
+	
+}
